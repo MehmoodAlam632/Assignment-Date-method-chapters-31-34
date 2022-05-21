@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Method</title>
+</head>
+
+<body>
+    <script>
+        document.write(`Assalam O Alaikum <br/><br/><br/>`);
+
+
+
+        //-----------Q.1-----------\\
+        // var currentdate = new Date();
+        // document.write(currentdate);
+
+        //-----------Q.2-----------\\
+        // var monthNames = ["January","Febuary","March","April","May","June","July","August","September","October","November","December"];
+        // var currentMonth = new Date().getMonth();
+        // alert("current Month : " + monthNames[currentMonth]);
+
+
+        //-----------Q.3-----------\\
+        // var days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+        // var today = new Date().getDay();
+        // alert("today is :" +  days[today] );
+
+
+        //-----------Q.4-----------\\
+        // var today = new Date().getDay();
+        // if (today == 0 || today == 6) {
+        //     alert("today is Funday!");
+        // }
+        // else{
+        //     alert("Today is working day!");
+        // }
+
+
+        //-----------Q.5-----------\\
+        // var today = new Date().getDate();
+        // if(today <= 15){
+        //     document.write(`<h1>First Fifteen days of the month</h1>`);
+        // } else {
+        //     document.write(`<h1>Last days of the month</h1>`);
+        // }
+
+
+        //-----------Q.6-----------\\
+
+
+
+        //-----------Q.7-----------\\
+        // var currentDate = new Date().getHours();
+        // if(currentDate < 12){
+        //     alert(`"Its AM"`)
+        // } else{
+        //     alert(`"Its PM"`)
+
+        // }
+        // document.write(currentDate);
+
+
+        //-----------Q.8-----------\\
+        // var laterDate = new Date('Dec 31 2020');
+        // alert("later Date : " +  laterDate);
+
+
+        //-----------Q.9-----------\\
+        // var ramadanStartDate = new Date('June 18 2015');
+        // var today = new Date();
+        // var difference = today.getTime() - ramadanStartDate.getTime();
+        // let totalDays = Math.floor(difference / (1000 * 3600 * 24));
+        // console.log('difference :>> ', totalDays );
+        // alert(totalDays  + " Days have passed since 1st Ramadan, 2015");
+
+
+
+        //-----------Q.10-----------\\
+        // var pastDate = new Date('Dec 05 2015 22:50:16');
+        // var today = new Date();
+        // var difference = (today.getTime() - pastDate.getTime());
+        // var totalSeconds = difference * 60;
+        // console.log(difference);
+        // document.write("On refference Date " + today + "<br/><br/><br/>");
+        // document.write(totalSeconds + " Seconds had passed since beginninf of 2015 <br/><br/><br/>");
+
+
+        //-----------Q.11-----------\\
+        // var now = new Date();
+        // now.setHours(now.getHours() - 1);
+        // document.write("Current Date " +  new Date() + "<br/><br/>");
+        // document.write("1 Hour ago, it was " +  now);
+
+                            //OR
+
+        // var pastHour = new Date('Dec 05 2015 23: 08: 16');
+        // var currentTime = new Date('Dec 05 2015 22: 08: 16');
+        // document.write("Current date: " + currentTime + "<br/><br/>");
+        // document.write("1 Hour ago, it was " + pastHour); 
+
+
+
+        //-----------Q.12-----------\\
+        // var now = new Date();
+        // now.setFullYear(now.getFullYear() - 100);
+        // document.write("Current date: " + new Date() + "<br/><br/>");
+        // document.write("100 Year back, It was " + now);
+
+
+        //-----------Q.13-----------\\
+        // var now = new Date().getFullYear();
+        // var userAge = +prompt(`Please Enter your birth year`);
+        // var ageCalculate =  now - userAge;
+        // document.write("your age is " +  ageCalculate + "<br/><br/>");
+        // document.write("Your Birth year is " + userAge);
+
+
+
+        //-----------Q.14-----------\\
+        // document.write("<h1>K-Electric Bill</h1>");
+
+        // var monthNames = ["January","Febuary","March","April","May","June","July","August","September","October","November","December"];
+        // var currentMonth = new Date().getMonth();
+        // var totalUnits = +prompt(`Please Enter your consumed Unit`);
+        // var chargesPerUnit = 16;
+        // var latePaymentCharges = 350;
+        // document.write("<h3>Customer Name: Majid Hassan</h3>");
+        // document.write(`<h3>Month: ${monthNames[currentMonth]}</h3>` );
+        // document.write(`<h3>Number of units: ${totalUnits}</h3>`);
+        // document.write(`<h3>Charges per unit: ${chargesPerUnit} <br/><br/><br/> </h3>`);
+        // document.write(`<h3>Net Amount Payble (Within due date) ${totalUnits * chargesPerUnit}</h3>`);
+        // document.write(`<h3>Late Payment surcharge: ${latePaymentCharges}</h3>`);
+        // document.write(`<h3>Gross Amount Payble (After due date): ${(totalUnits * chargesPerUnit) + latePaymentCharges}</h3>`);
+
+
+
+    </script>
+</body>
+
+</html>
